@@ -1,0 +1,6 @@
+name = "TGFS"
+s1 = "story"
+q1 = "test"
+a1 = "answer 1"
+a2 = "answer 2"
+a3 = "answer 3"
