@@ -1,22 +1,9 @@
+from items import *
 import items
 import os
 import time
 
-def clear():
-  try:
-    os.system( 'clear' )
-  except:
-    os.system( 'cls' )
-
-def wait():
-  time.sleep(2)
-
-def answer():
-  answer = input("What do you chose")
-
-
-print('TGFS')
-clear()
+#main defs
 
 #example question
 # print(items.name)
@@ -28,31 +15,26 @@ clear()
 #answer = input("What do you chose")
 #clear()
 
-print(items.s1)
-wait()
-print(items.a1)
-wait()
-print(items.a2)
-wait()
-print(items.a3)
-wait()
-answer()
+score = int(0)
 
+print(s1)
+wait()
+print(a1)
+wait()
+print(a2)
+wait()
+print(a3)
+wait()
+answer = input("What do you chose?  ")
 
-# if answer1 == "1":
-#   a1 = "1"
-#   print('user chose 1')
-# elif answer1 == "2":
-#   print('user chose 2')
-#   a1 = "2"
-# elif answer1 == "3":
-#   print('user chose 3')
-#   a1 = "3"
-# else:
-#   clear()
-#   print('That is not an option')
-
-#teleport system example
-# if a1 == 1:
-#   print('')
-
+if answer == "1":
+  score = int(score) + 1
+elif answer == "2":
+  score = int(score) + 2
+elif answer == "3":
+  score = int(score) + 3
+else:
+  af1 = "nothing"
+  clear()
+  print('That is not an option')
+print(score)
