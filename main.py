@@ -175,10 +175,10 @@ clear()
 progbar()
 clear()
 
-if score == 3 and score <8 :
+if score >= 5 and score <9 :
   print(name)
   print (end1)
-elif score >= 8 and score <=11 :
+elif score >= 9 and score <=12 :
   print(name)
   print (end2)
 else :
