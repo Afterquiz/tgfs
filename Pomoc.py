@@ -24,4 +24,4 @@
 #
 #progbar()
 #clear()
-#score = int(0)
+###score = int(0)
